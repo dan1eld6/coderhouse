@@ -1,0 +1,17 @@
+@use "../utilities/mixins";
+main{
+    #servicios{
+        section{
+            h2{
+                @include mixins.h;
+            }
+            form{
+                div{
+                    .detalle{
+                        @include mixins.p-multi(#ffffff, 1.1rem, 0px, 0px 0px 15px 0px);
+                    }
+                }
+            }
+        }
+    }
+}

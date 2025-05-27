@@ -1,0 +1,9 @@
+@use "../utilities/mixins";
+main {
+    #carrito {
+        height: 100vh;
+        p{
+            @include mixins.p;
+        }
+    }
+}

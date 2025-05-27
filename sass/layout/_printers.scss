@@ -1,0 +1,27 @@
+@use "../utilities/mixins";
+
+main {
+    div {
+        div {
+            div {
+                div {
+                    .p-impresora{
+                        @include mixins.p-multi(#000000, 1.1rem, 0px, 0px 0px 15px 0px);
+                    }
+                    div {
+                        .carousel-inner {
+                            height: 400px;
+
+                            .carousel-item {
+                                justify-content: center;
+                                align-items: center;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

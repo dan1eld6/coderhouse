@@ -1,0 +1,23 @@
+//Utilidades
+// @use "./utilties/mapas";
+// @use "./utilties/mixins";
+
+//base
+// @use "./base/tipografia";
+@use "./base/reset";
+
+//Layout
+@use "./layout/header";
+@use "./layout/footer";
+@use "./layout/sections-index";
+@use "./layout/servicios";
+@use "./layout/carrito";
+@use "./layout/printers";
+@use "./layout/insumos";
+
+//components
+@use "./components/iconos";
+@use "./components/tarjeta";
+@use "./components/img-carousel";
+
+

@@ -1,0 +1,15 @@
+@use "../utilities/mixins";
+
+main{
+    div{
+        div{
+            div{
+                div{
+                    .p-insumo{
+                        @include mixins.p-multi(#000000, 1.1rem, 0px, 0px 0px 15px 0px);
+                    }
+                }
+            }
+        }
+    }
+}

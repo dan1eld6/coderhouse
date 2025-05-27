@@ -1,0 +1,11 @@
+{
+  "name": "entrega3",
+  "version": "1.0.0",
+  "description": "Sitio web responsive que ofrece servicios de impresión 3D personalizados, venta de impresoras, insumos, y asesoramiento técnico. Ideal para creativos, emprendedores y empresas que buscan soluciones de fabricación digital.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

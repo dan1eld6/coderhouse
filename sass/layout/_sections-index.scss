@@ -1,0 +1,90 @@
+@use "../utilities/mixins";
+@use "../utilities/mapas";
+@use "../base/reset";
+
+main {
+
+    #superior {
+        @include mixins.section(map-get(map-get(mapas.$color-sections, normal), superior));
+
+        .h1 {
+            @include mixins.h;
+        }
+
+        div {
+            .div-img {
+                overflow: hidden;
+
+                .img-home {
+                    @include mixins.img;
+                    animation: kenburns-left 6s cubic-bezier(0.950, 0.050, 0.795, 0.035)1s reverse both;
+                }
+            }
+
+            div {
+                .p-superior {
+                    @include mixins.p;
+                }
+            }
+        }
+    }
+
+    #medio {
+        @include mixins.section(map-get(map-get(mapas.$color-sections, normal), mitad));
+
+        .h2 {
+            @include mixins.h;
+        }
+
+        div {
+            div {
+                ul {
+                    .item-mid-page {
+                        @include mixins.li;
+                    }
+                }
+            }
+
+            div {
+                .img-home {
+                    @include mixins.img;
+                }
+            }
+        }
+    }
+
+    #inferior {
+        @include mixins.section(map-get(map-get(mapas.$color-sections, normal), inferior));
+
+        .h2 {
+            @include mixins.h;
+        }
+
+        div {
+            div {
+                .p-inferior {
+                    @include mixins.p;
+                }
+            }
+
+            .div-img{
+                // overflow: hidden;
+
+                .img-home {
+                    @include mixins.img;
+                    // animation: kenburns-left 6s cubic-bezier(0.950, 0.050, 0.795, 0.035)1s  reverse both;
+                }
+            }
+        }
+    }
+}
+
+#acerca-de {
+    h3 {
+        @include mixins.h;
+    }
+
+    .nosotros {
+        @include mixins.p-multi(#ffffff, 17.6px, 20px, 10px);
+    }
+}

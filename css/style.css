@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #ffffff;
+  background-color: black;
+}
+
+.kenburns-left {
+  -webkit-animation: kenburns-left 4s cubic-bezier(0.95, 0.05, 0.795, 0.035) 1s reverse both;
+  animation: kenburns-left 4s cubic-bezier(0.95, 0.05, 0.795, 0.035) 1s reverse both;
+}
+
+@-webkit-keyframes kenburns-left {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 16% 50%;
+    transform-origin: 16% 50%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(-20px, 15px);
+    transform: scale(1.25) translate(-20px, 15px);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+  }
+}
+@keyframes kenburns-left {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 16% 50%;
+    transform-origin: 16% 50%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(-20px, 15px);
+    transform: scale(1.25) translate(-20px, 15px);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+  }
+}
+header nav div .navbar-brand:hover, header nav div ul .nav-item .nav-link:hover {
+  color: #3355ff;
+  transition: 0.3s;
+}
+
+header nav div button .navbar-toggler-icon {
+  background-image: url("../assets/menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.875rem;
+  height: 1.875rem;
+}
+header nav div ul .nav-item {
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+  font-size: 20px;
+}
+header nav div ul .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7960784314);
+}
+footer div .div-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+footer div .div-footer .item-footer {
+  text-align: center;
+}
+
+main #superior {
+  background-color: #212529;
+  border-radius: 0.9375rem;
+  margin-bottom: 3.25rem;
+}
+main #superior .h1 {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+}
+main #superior div .div-img {
+  overflow: hidden;
+}
+main #superior div .div-img .img-home {
+  border-radius: 0.9375rem;
+  animation: kenburns-left 6s cubic-bezier(0.95, 0.05, 0.795, 0.035) 1s reverse both;
+}
+main #superior div div .p-superior {
+  color: rgba(255, 255, 255, 0.7882352941);
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+main #medio {
+  background-color: #000000;
+  border-radius: 0.9375rem;
+  margin-bottom: 3.25rem;
+}
+main #medio .h2 {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+}
+main #medio div div ul .item-mid-page {
+  list-style: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+main #medio div div .img-home {
+  border-radius: 0.9375rem;
+}
+main #inferior {
+  background-color: #393939;
+  border-radius: 0.9375rem;
+  margin-bottom: 3.25rem;
+}
+main #inferior .h2 {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+}
+main #inferior div div .p-inferior {
+  color: rgba(255, 255, 255, 0.7882352941);
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+main #inferior div .div-img .img-home {
+  border-radius: 0.9375rem;
+}
+
+#acerca-de h3 {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+}
+#acerca-de .nosotros {
+  color: #ffffff;
+  font-size: 17.6px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+main #servicios section h2 {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+}
+main #servicios section form div .detalle {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px 0px 15px 0px;
+  text-align: center;
+}
+
+main #carrito {
+  height: 100vh;
+}
+main #carrito p {
+  color: rgba(255, 255, 255, 0.7882352941);
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+main div div div div .p-impresora {
+  color: #000000;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px 0px 15px 0px;
+  text-align: center;
+}
+main div div div div div .carousel-inner {
+  height: 400px;
+}
+main div div div div div .carousel-inner .carousel-item {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+main div div div div .p-insumo {
+  color: #000000;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px 0px 15px 0px;
+  text-align: center;
+}
+
+.iconos {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+}
+
+.tarjeta {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=style.css.map */

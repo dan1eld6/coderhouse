@@ -1,0 +1,48 @@
+@mixin section($color) {
+    background-color: $color;
+    border-radius: .9375rem;
+    margin-bottom: 3.25rem;
+}
+
+
+@mixin img {
+    border-radius: .9375rem;
+}
+
+@mixin h {
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+@mixin p {
+    color: #ffffffc9;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+@mixin li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@mixin p-multi($color, $font-size, $margin, $padding) {
+    color: $color;
+    font-size: $font-size;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: $margin;
+    padding: $padding;
+    text-align: center;
+}
+
+%hover {
+    color: #3355ff;
+    transition: 0.3s;
+}
