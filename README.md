@@ -4,8 +4,8 @@ Sitio web responsive que ofrece servicios de impresión 3D personalizados, venta
 
 ## 🌐 Demo
 
-👉 [Enlace al sitio (si aplica)](https://tu-sitio.com)  
-📷 Capturas disponibles en la carpeta `/assets`.
+👉 [Enlace al sitio] https://dan1eld6.github.io/coderhouse/
+
 
 ---
 
